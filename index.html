@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Generador de Combos Free Fire - Futurista</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>Generador de Combos - Free Fire Futurista</h1>
+
+  <select id="comboTipo" aria-label="Selecciona tipo de combo">
+    <option value="curativo">Combo Curativo</option>
+    <option value="curacion_dano">Curación y Daño</option>
+    <option value="dano">Combo de Daño</option>
+    <option value="soporte">Combo de Soporte</option>
+    <option value="escudo">Combo de Escudo</option>
+    <option value="tanque">Combo de Tanque</option>
+  </select>
+
+  <button onclick="generarCombo()" aria-label="Generar combo">Generar Combo</button>
+
+  <div class="combo" id="resultadoCombo" role="region" aria-live="polite" aria-atomic="true"></div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
